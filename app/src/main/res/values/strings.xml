@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AppHlibZubov</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="random_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus at diam ac lacinia. Pellentesque iaculis gravida leo et pretium.</string>
+</resources>

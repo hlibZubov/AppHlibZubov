@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:id="@+id/view1"
+            android:background="@color/color4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:15"
+            android:fontFamily="@font/basic"
+            android:includeFontPadding="false"
+            android:id="@+id/time1"
+            android:padding="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zadzwonic do Filipa"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:fontFamily="@font/basic"
+            android:includeFontPadding="false"
+            android:paddingStart="16dp"
+            android:id="@+id/head1"
+            android:paddingEnd="16dp"/>
+
+        <TextView
+            android:id="@+id/desc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/basic"
+            android:includeFontPadding="false"
+            android:maxLines="3"
+            android:padding="16dp"
+            android:text="@string/random_text"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
